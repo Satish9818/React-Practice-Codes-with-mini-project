@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(./assets/cartoonimage.svg); */
+    /* background-repeat: no-repeat; */
+    
+}
+#navbar{
+    height: 84px;
+    width: 100%;
+    /* background: linear-gradient(rgb(64,78,237)); */
+    background-color: blue;
+    background-image: url(./assets/backgroundimage.svg);
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: url("./assets/backgroundimage.svg");
+    
+}
+
+#navbar>.content{
+    height: 100%;
+    width: 83%;
+    /* border: 2px solid ; */
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+
+}
+#navbar>.content>.logo{
+    height: 100%;
+    width: 26%;
+    /* border: 2px solid green; */
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    padding: 25px;
+    color: white;
+    
+}
+#navbar>.content>.menu{
+    height: 100%;
+    width: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+#navbar>.content>.logindot{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#navbar>.content>.logindot>button{
+    height: 40px;
+    width: 70px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+}
+#navbar>.content>.logindot>button>a{
+    text-decoration: none;
+}
+#navbar>.content>.menu>ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+   
+}
+#navbar>.content>.menu>ol>li{
+    padding: 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 600;
+   
+
+}
+#navbar>.content>.menu>ol>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#bodybar{
+    height: 73vh;
+    width: 100%;
+    /* background: linear-gradient(rgb(64,78,237)); */
+    background-color: blue;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(./assets/backgroundimage.svg); */
+    background-image: url("./assets/backgroundimage.svg");
+    
+}
+
+#bodybar>article{
+    height: 60%;
+    width: 60%;
+    /* background-color: brown; */
+    /* margin-left: 350px;
+    margin-top: ; */
+  /* background-image: url(./assets/cartoonimage.svg);
+  background-repeat: no-repeat;
+  margin-left: 200px; */
+}
+#bodybar>article>.first{
+    height: 30%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#bodybar>article>.first>h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+    font-family: cursive;
+    letter-spacing: 3px;
+    font-family: fantasy;
+    /* height: 10px; */
+    /* width: 40px; */
+
+}
+#bodybar>article>.second{
+    height: 38%;
+    width: 100%;
+    /* background-color: yellow; */
+    font-size: 18.672px;
+    margin-left: 50px;
+    /* padding-left: 40px; */
+    /* letter-spacing: 1px; */
+    word-spacing: 4px;
+     font-family: 'Times New Roman', Times, serif;
+     /* font-weight: lighte; */
+  
+
+
+}
+#bodybar>article>.second>.a
+{
+    padding-left: 25px;
+    /* margin-top: 10px; */
+    color: white;
+}
+#bodybar>article>.second>.b{
+color: white;
+}
+#bodybar>article>.second>.c
+{
+    padding-left: 223px;
+    color: white;
+}
+#bodybar>article>.third{
+    height:50%;
+    width: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    /* background-image:url(./assets/cartoonimage.svg); */
+}
+#bodybar>article>.third>.a{
+
+    height: 60px;
+    width: 300px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+    border: none;
+    margin-right: 20px;
+}
+#bodybar>article>.third>.a>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#bodybar>article>.third>.b
+{
+    height: 55px;
+    width: 350px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+    border: none;
+    background-color: rgb(44, 41, 41);
+    /* margin-right: 200px; */
+
+}
+#bodybar>article>.third>.b>a{
+    text-decoration: none;
+    color: white;
+}
+
+#secondpage{
+    height: 92vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+#secondpage>.left{
+    height: 100%;
+    width: 60%;
+    background-color: brown;
+}
+#secondpage
